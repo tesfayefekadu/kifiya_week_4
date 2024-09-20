@@ -19,6 +19,19 @@ def load_and_merge_data(train_path, store_path):
     except Exception as e:
         logging.error(f'Error during data loading and merging: {e}')
         return None
+    
+def handle_missing_values(df):
+    # Fill missing numerical values (e.g., competition data) with the median or 0
+    df['CompetitionDistance'].fillna(df['CompetitionDistance'].median(), inplace=True)
+    df['CompetitionOpenSinceMonth'].fillna(0, inplace=True)
+    df['CompetitionOpenSinceYear'].fillna(0, inplace=True)
+    
+    # Fill missing promo-related data with 0
+    df['Promo2SinceWeek'].fillna(0, inplace=True)
+    df['Promo2SinceYear'].fillna(0, inplace=True)
+    df['PromoInterval'].fillna('None', inplace=True)
+
+    return df    
 
 def clean_merged_data(df):
     """
