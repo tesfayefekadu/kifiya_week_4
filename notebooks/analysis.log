@@ -23,3 +23,20 @@
 2024-09-20 16:09:11,525:INFO:Bar chart for Assortment distribution done.
 2024-09-20 16:09:15,546:ERROR:Error during sales vs competition open analysis: cannot reindex on an axis with duplicate labels
 2024-09-20 16:09:30,801:ERROR:Error during sales vs competition open analysis: cannot reindex on an axis with duplicate labels
+2024-09-20 19:53:42,707:INFO:Data merged successfully.
+2024-09-20 19:53:42,717:INFO:Data loaded successfully in notebook.
+2024-09-20 20:30:55,889:INFO:Data merged successfully.
+2024-09-20 20:30:55,902:INFO:Data loaded successfully in notebook.
+2024-09-20 20:30:59,357:INFO:Data cleaned successfully in notebook.
+2024-09-20 20:31:04,497:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 20:31:04,968:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 20:31:05,464:INFO:Promo vs Sales analysis done.
+2024-09-20 20:31:09,266:INFO:StoreType vs Sales analysis done.
+2024-09-20 20:31:13,795:INFO:Competition Distance vs Sales analysis done.
+2024-09-20 20:31:17,339:INFO:Sales over time analysis done.
+2024-09-20 20:31:21,385:ERROR:Date column not found for time analysis.
+2024-09-20 20:31:25,393:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 20:31:25,885:INFO:Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2024-09-20 20:31:26,629:INFO:Sales vs Promo by day of the week analysis done.
+2024-09-20 20:31:28,878:INFO:Bar chart for Assortment distribution done.
+2024-09-20 20:31:32,944:ERROR:Error during sales vs competition open analysis: cannot reindex on an axis with duplicate labels
